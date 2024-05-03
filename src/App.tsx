@@ -43,10 +43,7 @@ function App() {
             <button
                 disabled={isSubmitting}
                 type="submit"
-            onClick={async ()=>{
-             const output= await trigger();
-             console.log(output);
-            }}>Signup
+            >Signup
             </button>
         </form>
     )
